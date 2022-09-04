@@ -56,27 +56,35 @@ main {
 
 .svg--top {
     position: absolute;
-    width: 600px;
-    height: 600px;
+    min-width: 300px;
+    height: 90%;
+    max-height: 900px;
+    min-width: 300px;
+    width: 100%;
+    max-width: 1000px;
     background-image: url('./images/bg-pattern-top.svg');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: top right;
-    top: -150px;
-    left: -150px;
+    top: -250px;
+    left: -250px;
     z-index: 1;
 }
 
 .svg--bottom {
     position: absolute;
-    width: 600px;
-    height: 600px;
+    min-width: 300px;
+    height: 90%;
+    max-height: 900px;
+    min-width: 300px;
+    width: 100%;
+    max-width: 1000px;
     background-image: url('./images/bg-pattern-bottom.svg');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom left;
-    bottom: -150px;
-    right: -150px;
+    bottom: -250px;
+    right: -250px;
     z-index: 1;
 }
 
