@@ -33,42 +33,31 @@ main {
 
 .card--component {
     background: radial-gradient(circle, #080518, #191827);
-    min-width: 220px;
-    width: 40vw;
-    max-width: 250px;
+    min-width: 300px;
+    width: 50vw;
+    max-width: 360px;
     height: auto;
     border-radius: 5px;
     color: #fff;
     font-family: var(--font-Kumbh);
     z-index: 4545;
+    transform: scale(1.1);
 }
 
 .card--component>.svg--background {
     background-image: url(./images/bg-pattern-card.svg);
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 110px;
+    height: 130px;
     border-radius: 5px;
-}
-
-.profile--img {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    background-image: linear-gradient(to top, #8a21df, #f10b63);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 5px auto 2px;
-    transform: translateY(-35px);
-    transition: background .3s linear;
 }
 
 .svg--top {
     position: absolute;
-    width: 400px;
-    height: 400px;
+    width: 600px;
+    height: 600px;
     background-image: url('./images/bg-pattern-top.svg');
     background-repeat: no-repeat;
     background-size: contain;
@@ -80,8 +69,8 @@ main {
 
 .svg--bottom {
     position: absolute;
-    width: 450px;
-    height: 400px;
+    width: 600px;
+    height: 600px;
     background-image: url('./images/bg-pattern-bottom.svg');
     background-repeat: no-repeat;
     background-size: contain;
@@ -91,12 +80,23 @@ main {
     z-index: 1;
 }
 
-
+.profile--img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: linear-gradient(to top, #8a21df, #f10b63);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px auto 2px;
+    transform: translateY(-35px);
+    transition: background .3s linear;
+}
 
 
 .profile--img>img {
-    width: 56px;
-    height: 56px;
+    width: 90px;
+    height: 90px;
     border-radius: 50%;
     object-fit: cover;
 }
@@ -109,7 +109,7 @@ main {
 }
 
 .text--wrapper>h1 {
-    font-size: .7rem;
+    font-size: 1.2rem;
     font-family: var(--font-Kumbh);
     color: #f7f7f7;
     font-weight: 400;
@@ -120,7 +120,7 @@ main {
 }
 
 .country {
-    font-size: 1rem;
+    font-size: 1.8rem;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: 700;
@@ -137,7 +137,7 @@ main {
     margin: 10px auto 5px;
     display: flex;
     padding: 1rem;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -149,11 +149,11 @@ main {
 }
 
 .stats>h2 {
-    font-size: 1.1rem;
+    font-size: 1.8rem;
 }
 
 .stats>p {
-    font-size: .4rem;
+    font-size: .6rem;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
